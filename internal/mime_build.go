@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aatuh/email/types"
+	"github.com/aatuh/email/v2/types"
 )
 
 // buildMIME assembles headers + body. If dkim != nil, it signs the

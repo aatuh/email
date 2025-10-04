@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aatuh/email"
-	"github.com/aatuh/email/internal"
-	"github.com/aatuh/email/types"
+	"github.com/aatuh/email/v2"
+	"github.com/aatuh/email/v2/internal"
+	"github.com/aatuh/email/v2/types"
 )
 
 // SMTPConfig configures the SMTP mailer.

@@ -23,7 +23,7 @@ and optional rate limiting.
 ## Install
 
 ```bash
-go get github.com/aatuh/email
+go get github.com/aatuh/email/v2
 ```
 
 ## Quick start
@@ -36,9 +36,9 @@ import (
   "strings"
   "time"
 
-  "github.com/aatuh/email"
-  "github.com/aatuh/email/smtp"
-  "github.com/aatuh/email/types"
+  "github.com/aatuh/email/v2"
+  "github.com/aatuh/email/v2/smtp"
+  "github.com/aatuh/email/v2/types"
 )
 
 func main() {
@@ -107,9 +107,9 @@ import (
   "embed"
   "time"
 
-  "github.com/aatuh/email"
-  "github.com/aatuh/email/smtp"
-  "github.com/aatuh/email/types"
+  "github.com/aatuh/email/v2"
+  "github.com/aatuh/email/v2/smtp"
+  "github.com/aatuh/email/v2/types"
 )
 
 //go:embed templates/*

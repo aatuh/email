@@ -6,7 +6,7 @@ import (
 	mrand "math/rand"
 	"time"
 
-	"github.com/aatuh/email/types"
+	"github.com/aatuh/email/v2/types"
 )
 
 // Option configures per-send behavior.

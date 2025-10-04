@@ -3,7 +3,7 @@ package email
 import (
 	"context"
 
-	"github.com/aatuh/email/types"
+	"github.com/aatuh/email/v2/types"
 )
 
 // Mailer defines the interface for email sending adapters.

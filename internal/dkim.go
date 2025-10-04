@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aatuh/email/types"
+	"github.com/aatuh/email/v2/types"
 )
 
 // buildDKIMSignature creates the DKIM-Signature header value for the
